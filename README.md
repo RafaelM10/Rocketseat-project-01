@@ -1,3 +1,10 @@
+Projeto desenvolvido com
+
+Knex
+Fastify
+Sqlite3
+Testes automatizados
+
 RF
  - [] O usuário deve poder criar uma nova transação;
  - [] O usuário deve poder obter um resumo da sua conta;
