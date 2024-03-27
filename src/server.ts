@@ -1,9 +1,9 @@
 import cookie from "@fastify/cookie";
-import fastify from "fastify";
+import fastify, { FastifyInstance } from "fastify";
 import { env } from "./env";
 import { transactionsRoutes } from "./routes/transactions";
 
-const app = fastify();
+const app: FastifyInstance = fastify();
 
 app.register(cookie);
 app.register(transactionsRoutes, {
